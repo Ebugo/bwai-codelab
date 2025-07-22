@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build with AI Owerri</title>
+    <!-- Materialize CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Material Icons CDN -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+    <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+    <df-messenger project-id="ai-agent-461316" agent-id="ee9cdd74-1a15-460c-8c1a-32744b4206c4" language-code="en"
+        max-query-length="-1">
+        <df-messenger-chat-bubble chat-title="Test 1">
+        </df-messenger-chat-bubble>
+    </df-messenger>
+    <style>
+        df-messenger {
+            z-index: 999;
+            position: fixed;
+            --df-messenger-font-color: #000;
+            --df-messenger-font-family: Google Sans;
+            --df-messenger-chat-background: #f3f6fc;
+            --df-messenger-message-user-background: #d3e3fd;
+            --df-messenger-message-bot-background: #fff;
+            bottom: 16px;
+            right: 16px;
+        }
+        /* Custom font for a clean look */
+        body {
+            font-family: "Inter", sans-serif;
+            background-color: #f5f5f5;
+            /* Light gray background, typical for Material Design */
+        }
+
+        .container {
+            max-width: 900px;
+            margin-top: 20px;
+            /* Add top margin */
+            margin-bottom: 20px;
+            /* Add bottom margin */
+            margin-left: auto;
+            /* Center horizontally */
+            margin-right: auto;
+            /* Center horizontally */
+        }
+
+        .card {
+            border-radius: 8px;
+            /* Slightly more rounded corners for Material Design */
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+            /* Standard Material shadow */
+        }
+
+        .section-title {
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .organizer-card {
+            border-left: 5px solid #4285F4;
+            /* Google blue accent */
+        }
+
+        .chip {
+            margin: 5px;
+            font-weight: 500;
+        }
+
+        /* Removed centering styles that caused content to be cut off */
+        html,
+        body {
+            height: auto;
+            /* Allow height to adjust to content */
+            display: block;
+            /* Revert to default display */
+        }
+
+        body>.container {
+            flex-grow: unset;
+            /* Remove flex-grow */
+            display: block;
+            /* Revert to default display */
+            justify-content: unset;
+            /* Remove justify-content */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Event Title Section -->
+        <div class="card-panel center-align z-depth-1">
+            <h1 class="flow-text grey-text text-darken-4">Build with AI Owerri</h1>
+            <p class="grey-text text-darken-1">A Hands-on Workshop by Google Developer Groups Owerri</p>
+        </div>
+
+        <!-- Event Overview -->
+        <section class="card-panel z-depth-1">
+            <h2 class="flow-text grey-text text-darken-3 section-title">Event Overview</h2>
+            <p class="grey-text text-darken-2">
+                The **"Build with AI Owerri"** event, organized by Google Developer Groups (GDG) Owerri, is a hands-on
+                workshop by Google. It focuses on the practical application of Artificial Intelligence (AI) and aims to
+                demonstrate how developers, startups, and businesses can leverage AI to automate workflows, enhance user
+                experiences, and develop smarter solutions.
+            </p>
+        </section>
+
+        <!-- Key Information Section -->
+        <section class="row">
+            <h2 class="flow-text grey-text text-darken-3 section-title col s12">Key Information</h2>
+            <div class="col s12 m4">
+                <div class="card center-align">
+                    <div class="card-content">
+                        <i class="material-icons large blue-text text-lighten-1">event</i>
+                        <h3 class="flow-text grey-text text-darken-3">Date</h3>
+                        <p class="grey-text text-darken-2">Saturday, July 26, 2025</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="card center-align">
+                    <div class="card-content">
+                        <i class="material-icons large green-text text-lighten-1">access_time</i>
+                        <h3 class="flow-text grey-text text-darken-3">Time</h3>
+                        <p class="grey-text text-darken-2">3:00 AM - 8:00 AM (PDT)</p>
+                        <p class="grey-text text-darken-2">(11:00 AM WAT)</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="card center-align">
+                    <div class="card-content">
+                        <i class="material-icons large red-text text-lighten-1">location_on</i>
+                        <h3 class="flow-text grey-text text-darken-3">Location</h3>
+                        <p class="grey-text text-darken-2">Café One, Owerri</p>
+                        <p class="grey-text text-darken-2">60 Ekwema Crescent, Layout, 460281</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Themes Section -->
+        <section class="card-panel z-depth-1">
+            <h2 class="flow-text grey-text text-darken-3 section-title">Themes</h2>
+            <div class="center-align">
+                <div class="chip purple lighten-5 purple-text text-darken-4">#AI</div>
+                <div class="chip blue lighten-5 blue-text text-darken-4">#BuildWithAI</div>
+                <div class="chip amber lighten-5 amber-text text-darken-4">#Cloud</div>
+                <div class="chip red lighten-5 red-text text-darken-4">#Firebase</div>
+                <div class="chip teal lighten-5 teal-text text-darken-4">#Gemini</div>
+            </div>
+        </section>
+
+        <!-- Organizers Section -->
+        <section class="row">
+            <h2 class="flow-text grey-text text-darken-3 section-title col s12">Organizers</h2>
+            <div class="col s12 m6">
+                <div class="card-panel organizer-card">
+                    <h3 class="flow-text grey-text text-darken-3">Gospel Chinyereugo</h3>
+                    <p class="grey-text text-darken-2">GDG Lead Organizer from ALAT by Wema</p>
+                </div>
+            </div>
+            <div class="col s12 m6">
+                <div class="card-panel organizer-card">
+                    <h3 class="flow-text grey-text text-darken-3">Amadikwa Joy N</h3>
+                    <p class="grey-text text-darken-2">GDG Organizer from Korapay</p>
+                </div>
+            </div>
+            <div class="col s12 m6">
+                <div class="card-panel organizer-card">
+                    <h3 class="flow-text grey-text text-darken-3">Austin Amadi</h3>
+                    <p class="grey-text text-darken-2">Cloud Solution Architect from Microsoft</p>
+                </div>
+            </div>
+            <div class="col s12 m6">
+                <div class="card-panel organizer-card">
+                    <h3 class="flow-text grey-text text-darken-3">Claret Nnamocha</h3>
+                    <p class="grey-text text-darken-2">Software Engineer from Zenolynk technologies</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Additional Information Section -->
+        <section class="card-panel z-depth-1">
+            <h2 class="flow-text grey-text text-darken-3 section-title">Additional Information</h2>
+            <p class="grey-text text-darken-2">
+                This event page is based on information from the Google Developer Groups platform. Please note that the
+                site uses cookies to enhance your experience. You can learn more about how Google and Bevy use cookies
+                through their respective privacy policies.
+            </p>
+            <h3 class="flow-text grey-text text-darken-3">Quick Links:</h3>
+            <ul class="collection">
+                <li class="collection-item">About GDG</li>
+                <li class="collection-item">Chapters</li>
+                <li class="collection-item">Upcoming Events</li>
+                <li class="collection-item">Participation Terms</li>
+                <li class="collection-item">Privacy Terms</li>
+            </ul>
+        </section>
+    </div>
+    <!-- Materialize JavaScript CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>
